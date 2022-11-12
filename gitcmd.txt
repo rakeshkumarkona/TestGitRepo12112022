@@ -1,0 +1,25 @@
+316  mkdir aurionpro
+  317  cd aurionpro/
+  318  git clone https://github.com/DevOpsHubIN/aurionpro_nov2022.git
+  319  ll
+  320  cd aurionpro_nov2022/
+  321  ll
+  322  cat aurion_autobuild
+  323  pwd
+  324  cat aurion_autobuild
+  325  git status
+  326  git add aurion_autobuild
+  327  pwd
+  328  ll
+  329  ls -al
+  330  ll .git/
+  331  ll .git/objects/
+  332  git log
+  333  git status
+  334  git commit -m "created aurion_autobuild"
+  335  ll .git/objects/
+  336  ll .git/objects/bd/
+  337  ll .git/objects/bd/
+  338  git log
+  339  git push origin main
+  340  git log
