@@ -1,4 +1,4 @@
-316  mkdir aurionpro
+  316  mkdir aurionpro
   317  cd aurionpro/
   318  git clone https://github.com/DevOpsHubIN/aurionpro_nov2022.git
   319  ll
@@ -23,5 +23,40 @@
   338  git log
   339  git push origin main
   340  git log
-  
-  Adding Test Data For diff
+  343  git pull
+  344  cat aurion_autobuild
+  345  git remote -v
+  346  git config --list
+  347  git diff origin main
+  348  git sdiff origin main
+  349  git diff origin main
+  350  git diff origin
+  351  git diff main origin main
+  352  git diff origin
+  353  git fetch
+  354  cat aurion_autobuild
+  355  git diff origin
+  356  git diff origin
+  357  cat aurion_autobuild
+  358  git log
+  359  git pull
+ 372  git add aurion_autobuild
+  373  git commit -m "revert this change"
+  374  git log
+  375  git revert e463572
+  376  git revert --abort
+  377  git revert e231702
+  378  git log
+  379  cat aurion_autobuild
+  380  vim aurion_autobuild
+  381  git status
+  382  git add aurion_autobuild
+  383  git commit -m "revert this change"
+  384  git push origin main
+  385  git log
+  386  git revert 022b4e2
+  387  git log
+  388  git revert 022b4e2
+  389  git reset --hard 022b4e2
+  390  git log --oneline
+
